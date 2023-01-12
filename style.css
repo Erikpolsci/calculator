@@ -39,23 +39,36 @@ body{
 
 .display{
   width: auto;
-  font-size: 5rem;
-  height: 70px;
+  padding: 10px;
+  display: flex;
   background-color: transparent;
   border: solid 2px #ccc;
   text-align: right;
-  grid-column: span 4;
-  margin: 9px;
+  align-items: flex-end;
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.75);
+  flex-direction: column;
+  margin: 10px;
   border-radius: 10px;
   
-  
+}
+
+.display .previous-operation {
+  font-size: 1.5rem;
+  color: rgba(255,255, 255, 0.75);
+
+}
+
+.display .current-operation {
+  color: white;
+  font-size: 2.5rem;
 }
 
 button {
 height: 60px;
 padding: 5px;
 cursor: pointer;
-margin:10px;
+margin:9px;
 background-color: rgba(91, 207, 239);
 border-radius: 10px;
 border: 2px solid #c4c4c4;
@@ -66,3 +79,4 @@ button:hover {
     background-color: rgba(24, 144, 178, .9);
 
 }
+
