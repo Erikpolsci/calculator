@@ -4,8 +4,12 @@ const operators = document.getElementById(
       "btn-dot", 
     );
 
-const number = document.getElementById("btn-number")
+const number = document.getElementById("btn-number");
 
-const result = document.getElementById("btn-equal")
+const result = document.getElementById("btn-equal");
 
-const clear = document.getElementById("btn-clear")
+const clear = document.getElementById("btn-clear");
+
+const previousText = document.getElementById("previous-operation");
+const currentText = document.getElementById("current-operation");
+
