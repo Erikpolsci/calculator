@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 33%,
+  hsl(337deg 100% 43%) 44%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    grid-gap: 10px;
+    margin: auto;
+    
+}
+
+.display{
+  width: auto;
+  font-size: 5rem;
+  height: 70px;
+  background-color: transparent;
+  border: solid 2px #ccc;
+  text-align: right;
+  grid-column: span 4;
+  margin: 9px;
+  border-radius: 10px;
+  
+  
+}
+
+button {
+height: 60px;
+padding: 5px;
+cursor: pointer;
+margin:10px;
+background-color: rgba(91, 207, 239);
+border-radius: 10px;
+border: 2px solid #c4c4c4;
+font-size: 2rem;
+}
+
+button:hover {
+    background-color: rgba(24, 144, 178, .9);
+
+}
