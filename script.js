@@ -13,3 +13,10 @@ const clear = document.getElementById("btn-clear");
 const previousText = document.getElementById("previous-operation");
 const currentText = document.getElementById("current-operation");
 
+function clear() {
+
+}
+
+function del() {
+
+}
