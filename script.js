@@ -14,6 +14,8 @@ const previousText = document.getElementById("previous-operation");
 const currentText = document.getElementById("current-operation");
 
 function clear() {
+  previousText.innerHTML = '';
+  currentText.innerHTML = '0';
 
 }
 
