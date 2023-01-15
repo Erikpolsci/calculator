@@ -3,8 +3,8 @@ const number = document.getElementById("btn-number");
 const display = document.getElementById("display");
 const result = document.getElementById("btn-equal");
 const clear = document.getElementById("btn-clear");
-const previousText = document.getElementById("previous-operation");
-const currentText = document.getElementById("current-operation");
+//const previousText = document.getElementById("previous-operation");
+//const currentText = document.getElementById("current-operation");
 
 
 const buttons = Array.from(document.getElementsByClassName("button"));
@@ -39,10 +39,12 @@ const operators = Array.from(document.getElementById(
 
 
 
-display.addEventListener('keydown', (event) => {
- display.innerText =  event.key 
+// document.addEventListener('keydown', (event) => {
+//     let key = event.key
+//     if(key === 13){
+//       display.innerHTML = '';
+//     }
+// })
   
   
-  //display.innerText = event.innerText
-})
 
