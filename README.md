@@ -1,5 +1,5 @@
 
-Js Calculator
+# Js Calculator
 
 Calculator made in pure javascript for logic and function training purposes.
 
