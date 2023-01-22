@@ -3,6 +3,8 @@
 
 Calculator made in pure javascript for logic and function training purposes.
 
+You can try here: https://erikpolsci.github.io/calculator/
+
 
 [![GPLv3 License](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://opensource.org/licenses/) 
 
